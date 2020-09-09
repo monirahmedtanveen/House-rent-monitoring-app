@@ -1,0 +1,15 @@
+Solving the errors while building custom nova tool/card/fields etc.
+===================================================================
+  
+cd to nova-components/your-custom-nova-tool
+
+sudo rm -rf node-modules
+
+npm install imagemin-pngquant@5.0.1 --save
+npm install pngquant-bin@3.1.1 --save
+
+npm install
+
+After that run :- npm run watch
+
+It will run without any error.
